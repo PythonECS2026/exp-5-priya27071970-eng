@@ -2,9 +2,6 @@
 # Coder:
 # Date:
 
-print("--- Task List Manager ---")
-tasks = ["Sleep", "Getup", "Brush"]
-print(f"Original Tasks: {tasks}")
 tasks = ["Sleep", "Getup", "Brush"]
 print(f"Original Tasks: {tasks}")
 tasks.append(input())
@@ -15,7 +12,7 @@ print(f"Tasks after Editing: {tasks}")
 tasks.pop(0)
 print(f"Tasks after Removing: {tasks}")
 tasks.sort()
-print(f"Tasks after Sorting: {tasks}"
+print(f"Tasks after Sorting: {tasks}")
 # Write your code here
 # TODO: Add & Print new Task from user
 
@@ -24,4 +21,5 @@ print(f"Tasks after Sorting: {tasks}"
 # TODO: Remove & Print a Task selected by User
 
 # TODO: Sort & Print the Tasks
+
 
